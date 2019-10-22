@@ -1,0 +1,382 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{enumitem}
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[english]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+%number is section
+\newcounter{secnumber}
+\renewcommand\sectionstyle[1]{{%
+  \refstepcounter{secnumber}%
+  \sectionfont
+  \textcolor{color1}{\thesecnumber~#1}%
+}}
+
+% personal data
+\firstname{\Huge Sim\'on Emmanuel}
+\familyname{Guti\'errez Brida}
+\title{Curriculum Vitae} 
+%\address{<Address Street>}{<Addres Place>}
+\mobile{+549 (358) 4396 444}
+\phone{+549 (358) 4676 235}
+%\fax{<Fax number>}
+\email{sgutierrez@dc.exa.unrc.edu.ar}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[100pt]{pict.JPG}
+%\photo[84pt]{foto.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{"Success is the ability to go from failure to failure without losing your enthusiasm." -- Winston Churchill}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{wasysym}
+
+\begin{document}
+\maketitle
+
+%Section
+\section{Informaci\'on Personal}
+%\cvcomputer{Nombre:}{Renzo Degiovanni}{D.N.I:}{32705627}
+%\cvline{}{Lugar de Nacimiento: R\'io Cuarto, C\'ordoba, Argentina}
+%\cvcomputer{Fecha y Lugar de Nacimiento:}{10/04/1987}{Estado Civil:}{Uni\'on de Hecho}
+%\cvcomputer{Lugar de Nacimiento:}{R\'io Cuarto, C\'ordoba, Argentina}{N\'umeros de Hijos:}{1}
+%\cvcomputer{Fecha de Nacimiento:}{10/04/1987}{Lugar de Nacimiento:}{R\'io Cuarto, C\'ordoba, Argentina}
+%\cvcomputer{Estado Civil:}{Uni\'on de Hecho}{Hijos:}{1}
+%\cvcomputer{Domicilio:}{Avenida C\'ordoba 515}{Localidad:}{Las Acequias, C\'ordoba, Argentina}
+\begin{minipage}{9cm}
+\begin{itemize}
+\item Nombre: Guti\'errez Brida, Sim\'on Emmanuel
+\item D.N.I.: 30591131
+\item Domicilio: Moreno 657 7D
+\item Localidad: R\'io Cuarto, C\'ordoba
+\end{itemize}
+\end{minipage}
+\begin{minipage}{9cm}
+\begin{itemize}
+\item Fecha de Nacimiento: 14/10/1983
+\item Lugar de Nacimiento: Ciudad de Buenos Aires
+\item Estado Civil: Soltero
+\item Nº de Hijos: 0
+\end{itemize}
+\end{minipage}
+
+
+\section{Estudios Realizados}
+%\cventry{start-end}{<Position Held>}{<Name of employer>}{<Place>}{<Country>}{<Description>} % arguments 3 to 6 are optional
+\cventry{2014-2019}{Doctorado en Ciencias de la Computaci\'on}{}{Facultad de Matem\'atica, Astronom\'ia y F\'isica, Universidad Nacional de C\'ordoba}{C\'ordoba, Argentina}{Tema de investigaci\'on: En esta tesis desarrollamos un nuevo operador de mutaci\'on para expresiones de navegaci\'on, el cual extiende al conjunto de operadores tradicionales en el \'ambito de mutation testing al permitir la representaci\'on de fallas no representadas anteriormente. Y en el \'ambito de reparaci\'on autom\'atica de programas, incrementa la reparabilidad de los mismos.}
+%{Tema de investigaci\'on: Nuestro objetivo es la adaptaci\'on y aplicaci\'on de t\'ecnicas de an\'alisis autom\'atico provenientes de los m\'etodos formales de desarrollo (sat solving, model checking, interpolaci\'on, abstracci\'on, etc.), para la automatizaci\'on (al menos parcial) de actividades propias de la ingenier\'ia de requisitos de software.}
+
+\cventry{2009-2014}{Licenciatura en Ciencias de la Computaci\'on}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Promedio Final: 8.53}
+
+\cventry{2007-2011}{Analista en Computaci\'on}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Promedio Final: 8.13}
+
+%\cventry{1999-2004}{Educaci\'on Secundaria}{}{Bachiller en Ciencias Naturales, especialidad Salud y Ambiente}{}{Instituto Privado de Las Acequias, C\'ordoba, Argentina.}
+
+%\cventry{1993-1998}{Educaci\'on Primaria}{}{Centro Educativo Leonilas de Las Mercedes Lemos}{}{Las Acequias, C\'ordoba, Argentina}
+
+% \section{Área de Investigación}
+% Actualmente me desempeño como becario Post Doctoral de CONICET en el Departamento de Computación de la UNRC. Mi supervisor es el Dr. Nazareno Aguirre.
+% En líneas generales, mi trabajo de investigación está vinculado a la Ingeniería de Software, más precisamente, a la Ingeniería de Requisitos.
+% La provisi\'on de mecanismos para detectar y resolver errores en la descripci\'on de los requisitos, es de fundamental importancia pr\'actica y econ\'omica en la actividad de producci\'on de software.
+% Concretamente, nuestro objetivo es la adaptaci\'on y aplicaci\'on de t\'ecnicas de an\'alisis autom\'atico, para la automatizaci\'on (al menos parcial) de actividades propias de la ingenier\'ia de requisitos. 
+% Las t\'ecnicas de an\'alisis autom\'atico a aplicar son las provenientes de m\'etodos formales de desarrollo, m\'as precisamente an\'alisis basado en satisfactibilidad booleana (SAT Solving), t\'ecnicas vinculadas al model checking y la abstracción, y también el c\'omputo autom\'atico de interpolantes y unsat-cores (núcleos de insatisfactibilidad). 
+
+% Dada la inherente parcialidad e incertidumbre en las descripciones de requisitos, resulta importante el uso de lenguajes deónticos y/o probabilistas para capturar situaciones excepcionales, como la ocurrencia de fallas, imprecisiones en los dispositivos de entrada/salida, amenazas de seguridad, etc. 
+% Evaluar la probabilidad de ocurrencia de estas fallas y cuál será su impacto en el sistema, es un tipo de análisis de riesgo de gran relevancia sobre especificaciones de requisitos. Para esto, estudiamos diferentes formalismos probabilistas para el modelado de esas situaciones, que poseen poderosos mecanismos de análisis asociados, como model checkers probabilistas.
+
+
+\section{Becas Obtenidas}
+\cventry{2019-2021}{Beca de PostDoctorado}{}{otorgada por Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2014-2019}{Beca interna Doctoral}{}{otorgada por Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2012}{Becas de Fin de Carrera para Estudiantes de Grado en Carreras TICs}{}{otorgada por Agencia Nacional de Promoci\'on Cient\'ifica y Tecnol\'ogica}{}{}
+\cventry{2011}{Beca de Est\'imulo a las Vocaciones Cient\'ificas.}{}{otorgada por Consejo Interuniversitario Nacional}{}{}
+%T\'itulo Proyecto de Investigaci\'on : \emph{Implementaci\'on de Refinamientos de Especificaciones DynAlloy mediante descubrimiento de Predicados}. Director: Marcelo Frias, Co-Director: Germ\'an Regis.
+
+%\cventry{}{}{}{}{}{}
+\section{Antecedentes Laborales}
+\subsection{Acad\'emicos de Grado}
+\cventry{Abril 2019- Julio 2019}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Complejidad y Computabilidad}}{}
+
+\cventry{Abril 2018- Julio 2018}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Algoritmos 2}}{}
+
+\cventry{Enero 2017- Marzo 2017}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Algoritmos 2}}{}
+
+\cventry{Enero 2017- Marzo 2017}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Algoritmos 2}}{}
+
+\cventry{Enero 2016- Diciembre 2016}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a las asignaturas \emph{Algoritmos 2} y \emph{Ingenier\'ia de software distribuida y terciarizada}}{}
+
+\cventry{Agosto 2015- Diciembre 2015}{Ayudante de Primera Simple}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Ingenier\'ia de software distribuida y terciarizada}}{}
+
+\cventry{2011-2012}{Ayudante de Segunda Rentado}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a las asignaturas \emph{Algoritmos 1} y \emph{Algoritmos 2}}{}
+
+\cventry{2010-2011}{Ayudante de Segunda Rentado}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Introducci\'on a la Algor\'itmica y Programaci\'on}}{}
+
+\cventry{2008-2009}{Ayudante de Segunda Rentado}{}{en el Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{afectado a la asignatura \emph{Introducci\'on a la Algor\'itmica y Programaci\'on}}{}
+
+%\cventry{}{}{}{}{}{}
+
+%\subsection{Acad\'emicos de Post Grado}
+%\cventry{2016}{Responsable de Testing de Software}{dictada como curso de post-grado, extracurricular y optatito (para alumnos de la Licenciatura en Ciencias de la Computación)}{es importante destacar que la responsabilidad de esta materia fué compartida con la Dra. Valeria Bengolea y el Dr. Pablo Ponzio, en la Universidad Nacional de R\'io Cuarto}{}{}
+%
+%\cventry{2016}{Colaborador en el curso extracurricular de Post-Grado ``Especificación formal y análisis automático de programas''}{}{dictada en el primer cuatrimestre de 2016, cuyo coordinador fué el Dr. Pablo Ponzio, en la Universidad Nacional de R\'io Cuarto}{}{}
+%
+%\cventry{2013}{Colaborador en Validaci\'on y Verificaci\'on de Software}{dictada como curso de post-grado, extracurricular y optatito (para alumnos de la Licenciatura en Ciencias de la Computación)}{Docente Responsable: Nazareno Aguirre, Colaboradores: Valeria Bengolea y Renzo Degiovanni, en la Universidad Nacional de R\'io Cuarto}{}{}
+
+\subsection{Otras Actividades Docentes}
+\cventry{Febrero 2010- Mayo 2010}{Tutor}{}{Proyecto PACENI. Fac. de Ciencias Exactas, Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto}{Resoluci\'on Decanal 16 del 2010}{}
+
+\cventry{2010}{Colaborador en el dictado del M\'odulo Problem\'atica Universitaria y Sociedad y de tutor\'ia de aspirantes al ingreso 2010}{}{Fac. de Ciencias Exactas, Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto}{Resoluci\'on Decanal 17 del 2010}{}
+
+\cventry{Abril 2009- Julio 2009}{Tutor}{}{Proyecto 2009 ``Tutor\'ias de pares''. Fac. de Ciencias Exactas, Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto}{afectado a la asignatura \emph{Introducci\'on a la Algor\'itmica y Programaci\'on}}{Resoluci\'on Decanal 491/09}
+
+\cventry{Abril 2008- Julio 2008}{Tutor}{}{Proyecto 2008 ``Tutor\'ias de pares''. Fac. de Ciencias Exactas, Físico-Químicas y Naturales de la Universidad Nacional de Río Cuarto}{afectado a la asignatura \emph{Introducci\'on a la Algor\'itmica y Programaci\'on}}{}
+
+\section{Participaci\'on en Proyectos de Investigaci\'on}
+%\subsection{Responsable}
+%\cventry{2018-2020}{Análisis de Riesgo en Especificaciones de Requisitos de Software}{PICT GRF 2017-1979}{Financiado por el FONCyT, Agencia de Promoci\'on Cient\'ifica y Tecnol\'ogica (\$465.000)}{Director Dr. Renzo Degiovanni}{}
+%\cventry{2016-2017}{Análisis Automático durante la Etapa Temprana del Proceso de Ingeniería de Requisitos}{PICT Joven 2015-2088}{Financiado por el FONCyT, Agencia de Promoci\'on Cient\'ifica y Tecnol\'ogica (\$130.000)}{Director Dr. Renzo Degiovanni}{}
+
+\subsection{Colaborador}
+\cventry{2016-2018}{M\'etodos Formales para la Especificaci\'on, Dise\~no y Verificaci\'on de Software}{PPI}{Financiado por la Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto (\$49.800)}{Director Dr. Nazareno Aguirre. Investigador}{}
+
+\cventry{2012-2015}{M\'etodos Formales para la Especificaci\'on, Dise\~no y Verificaci\'on de Software}{PPI}{Financiado por la Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto (\$39.000)}{Director Dr. Nazareno Aguirre. Investigador}{}
+
+\section{Publicaciones}
+%\subsection{Journals}
+%\cventry{2018}{Improving Lazy Abstraction for SCR Specifications through Constraint Relaxation}{R. Degiovanni, P. Ponzio, N. Aguirre, M. Frias}{en Journal of Software: Testing, Verification and Reliability (STVR)}{Online ISSN: 1099-1689}{Impact Factor: 1.588.}
+
+\subsection{Conferencias Internacionales}
+\cventry{2019}{On the effect of object redundancy elimination in randomly testing collection classes.}{P. Ponzio, V. Bengolea, S. Guti\'errez Brida, G. Scilingo, N. Aguirre, M. Frias}{11th International Workshop on Search-Based Software Testing (SBST 2018)}{Gothenburg, Sweden}{In conjunction with ICSE 2019 - ACM/IEEE International Conference on Software Engineering.}
+
+\cventry{2017}{An Analysis of the Suitability of Test-based Patch Acceptance Criteria}{L. Zem\'in, S. Guti\'errez, A. Godio, C. Cornejo, R. Degiovanni, G. Regis, N. Aguirre and M. Frias}{10th International Workshop on Search-Based Software Testing (SBST 2017)}{Buenos Aires, Argentina}{In conjunction with ICSE 2017 - ACM/IEEE International Conference on Software Engineering.}{}
+
+\cventry{2017}{Boolean expression extender - A mutation operator for strengthening and weakening boolean expressions}{S. Guti\'errez Brida, G. Scilingo}{2017 XLIII Latin American Computer Conference (CLEI 2017)}{C\'ordoba, Argentina}{}
+
+\cventry{2017}{DynAlloy Analyzer: A Tool for the Specification and Analysis of Alloy Models with Dynamic Behaviour}{G. Regis, C. Cornejo, S. Guti\'errez Brida, M. Politano, F. Raverta, P. Ponzio, N. Aguirre, J.P. Galeotti, M. Frias}{11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)}{Paderborn, Alemania}{Tool Paper.}
+
+\subsection{Conferencias Nacionales}
+
+\cventry{2012}{Criterios de Cobertura sobre RepOK para Reducir Test Suites Exhaustivas Acotadas: Estudio de Casos}{V. Bengolea, S. Guti\'errez Brida y N. Aguirre}{en Congreso Argentino de Ciencias de la Computaci\'on 2012 (CACIC 2012)}{Bah\'ia Blanca, Argentina}{}
+
+%\cventry{}{}{}{}{}{}
+
+%\subsection{Enviados (en revisi\'on)}
+%\item R. Degiovanni, P. Ponzio, N. Aguirre y M.Frias, ``Abstraction based Automated Test Generation from Formal Tabular Requirements Specifications'', en Journal of Software Testing, Verification and Reliability (Bajo Revisi\'on).
+\section{Evaluación de Artículos}
+%\subsection{Journals}
+%\cventry{2018}{ACM TOSEM}{Evaluador de un artículo en  ACM Transactions on Software Engineering and Methodology}{}{}{}
+%\cventry{2017}{IEEE TSE}{Evaluador de un artículo en IEEE Transactions on Software Engineering}{}{}{}
+%\subsection{Conferencias Internacionales}
+%\cventry{2017}{ASSE 2017}{Evaluador de artefactos de software en la ACM SIGSOFT International Symposium on Software Testing and Analysis}{}{}{}
+%\cventry{2016}{ASE 2016}{Evaluador de un artículo en la 31st IEEE/ACM International Conference on Automated Software Engineering}{}{}{}
+
+%\cventry{2015}{ESEC/FSE 2015}{Evaluador de un artículo en la 10th Joint Meeting on Foundations of Software Engineering}{}{}{}
+
+\subsection{Conferencias Nacionales/Regionales}
+\cventry{2019}{CLEI 2019}{Evaluación de un art\'iculo en Conferencia Latinoamericana de Informática}{}{}{}
+
+\cventry{2017}{CLEI 2017}{Evaluación de dos art\'iculos en Conferencia Latinoamericana de Informática}{}{}{}
+
+%\cventry{2017}{CLEI/JAIIO 2017}{Integrante de Comité de Programa de la 43a Conferencia Latinoamericana de Informática (CLEI) y 46a Jornadas Argentinas de Informática (JAIIO)}{}{}{}
+
+
+%\section{Estad\'ias en el Exterior}
+%Durante los \'ultimos a\~nos he realizado peri\'odicamente var\'ias visitas acad\'emicas a investigadores de Imperial College London, Reino Unido, en el marco del proyecto de intercambio entre investigadores europeos y argentinos IRSES-MEALS.
+%En el a\~no 2012 realic\'e una estad\'ia de 2.5 meses, en 2014 de 2 meses, y en 2015 una estad\'ia de 2 semanas.
+%En este marco consegu\'i vincularme con investigadores de dicha universidad para trabajar en problem\'aticas comunes, adem\'as de poder participar de eventos y conferencias internacionales. 
+%Como resultado de dichas visitas, hemos mejorado y desarrollado una técnica para el refinamiento autom\'atico de especificaciones de requisitos, utilizando interpolaci\'on y SAT Solving, que finalmente publicamos en la conferencia ICSE 2014. 
+%Adem\'as, hemos discutido las ideas elementales sobre la detecci\'on autom\'atica de conflictos entre requisitos de software, que luego fueran desarrollados localmente y publicados en la conferencia ASE 2016.
+%Actualmente mantenemos algunas l\'ineas de investigaci\'on conjunta. Por ejemplo, estamos estudiando la relaci\'on que puede existir entre nuestra t\'ecnica de refinamiento basada en interpolaci\'on, con aquellas existentes basadas en algoritmos de aprendizaje inductivo (machine learning). 
+
+%\section{Cursos y Seminarios Dictados}
+%\section{Servicio y/o Transferencia}
+%
+%\cventry{Agosto 2014}{Testing de Software}{}{Capacitaci\'on dictada en la Universidad Nacional de R\'io Cuarto, dirigida a las empresas ASPURC y Ascentio Technologies S.A.}{}{}
+%
+%\cventry{Octubre 2011}{Automatizaci\'on de Pruebas Unitarias y de Integraci\'on en el Desarrollo de Software}{}{Capacitaci\'on dictada en INTI, C\'ordoba, Argentina, dirigida a p\'ublico en general}{}{}
+%
+%\cventry{Agosto 2011}{Herramientas para Automatizaci\'on del testing. Generaci\'on de test de unidad con Microsoft Pex (y Code Contracts)}{}{Seminario Dictado en Motorola Solutions, C\'ordoba, Argentina}{}{}
+
+%\section{Actividades de Divulgaci\'on}
+%\subsection{Conferencias / Eventos}
+%\cventry{2018}{Goal-Conflict Likelihood Assessment based on Model Counting}{R. Degiovanni, P. Castro, M. Arroyo, M. Ruiz, N. Aguirre y M. Frías}{expositor en la 40th International Conference on Software Engineering (ICSE 2018)}{Gotenburgo, Suecia}{}
+%
+%\cventry{2017}{CLTSA: Labelled Transition System Analyser with Counting Fluent support}{G. Regis, R. Degiovanni, N. D'Ippolito, N. Aguirre}{expositor en el ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)}{Paderborn, Alemania. Tool Paper}{}
+%
+%\cventry{2016}{Goal-Conflict Detection based on Temporal Satisfiability Checking}{}{expositor en la International Conference on Automated Software Engineering ASE 2016, Singapore, Singapore, 2016}{}{}
+%
+%\cventry{2015}{Specifying Event-Based Systems with a Counting Fluent Temporal Logic}{}{expositor en MEALS Dissemination Event, colocated event with ECI 2015, Buenos Aires, Argentina, 2015}{}{}
+%
+%\cventry{2014}{Automated Goal Operationalisation based on Interpolation and SAT Solving}{}{expositor en la International Conference on Software Engineering ICSE 2014, Hyderabad, India, 2014}{}{}
+%
+%\cventry{2013}{Automated Goal Operationalisation based on Interpolation and SAT Solving}{}{expositor en MEALS Momentum Gathering, Satellite event of CONCUR 2013, Buenos Aires, Argentina, 2013}{}{}
+%
+%\cventry{2013}{Analyzing Behavioural Scenarios over Tabular Specifications Using Model Checking}{}{expositor en Latin American Workshop on Formal Methods LAFM 2013, Buenos Aires, Argentina, 2013}{}{}
+%
+%\cventry{2010}{Mejorando la Aplicaci\'on de Abstracci\'on por Predicados a Especificaciones Dyn\-Alloy}{}{expositor en el Congreso Argentino de Ciencias de la Computaci\'on 2010 (CACIC 2010)}{}{}
+%
+%\subsection{Jornadas}
+%\cventry{2014}{T\'ecnicas Autom\'aticas para la Elaboraci\'on, Validaci\'on y Verificaci\'on de Requisitos de Software}{}{expositor en Jornada de Doctorandos en Ciencias de la Computaci\'on de FAMAF, 2014}{}{}
+%
+%\cventry{2013}{Operacionalizaci\'on Autom\'atica de Goals basada en Interpolaci\'on y SAT Solving}{}{expositor en Jornada de Doctorandos en Ciencias de la Computaci\'on de FAMAF, 2013}{}{}
+%
+%\cventry{2011}{Generacion autom\'atica de casos de prueba basada en abstracci\'on desde especificaciones tabulares de requisitos}{}{expositor en Jornada de Doctorandos en Ciencias de la Computaci\'on de FAMAF, 2011}{}{}
+%
+%\cventry{2010}{An\'alisis Autom\'atico basado en SAT aplicado a la Validaci\'on de Requisitos de Software}{}{expositor en Jornada de Doctorandos en Ciencias de la Computaci\'on de FAMAF, 2010}{}{}
+
+%\subsection{Comunicaciones Orales}
+%\cventry{2017}{Comunicaci\'on oral de paper publicado en ASE 2016}{}{en Quinto Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2017, Santa Fe, Argentina}{}{}
+%
+%\cventry{2016}{Comunicaci\'on oral de paper publicado en ICSE 2015}{}{en 45 Jornadas Argentinas de Inform\'atica JAIIO 2016, Buenos Aires, Argentina}{}{}
+%
+%\cventry{2014}{Comunicaci\'on oral de paper publicado en ICSE 2014}{}{en 2 Congreso Nacional de Ingenier\'ia Inform\'atica / Sistemas de Informaci\'on Congreso Argentina, San Luis, Argentina}{}{}
+%
+%\cventry{2014}{Comunicaci\'on oral de paper publicado en ICSE 2014}{}{en 43 Jornadas Argentinas de Inform\'atica JAIIO 2014, Buenos Aires, Argentina}{}{}
+%
+%\cventry{2014}{Comunicaci\'on oral de paper publicado en ICSE 2014}{}{en Segundo Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2014, Santa Fe, Argentina}{}{}
+
+\section{Formaci\'on de Recursos Humanos}
+
+\subsection{Licenciatura en Ciencias de la Computaci\'on (5 a\~nos + Trabajo Final)}
+\cventry{2017 - Actualidad}{Comparaci\'on de herramientas de generaci\'on autom\'atica de tests}{}{Director: Pablo Ponzio, Co-Directores: Sim\'on Emmanuel Guti\'errez Brida}{Tesista: Leandro Buttignol}{Estado: en curso}
+
+%\cventry{2014 - actualidad}{Especificaci\'on de los requisitos del software de un simulador de combate a\'ereo usando el m\'etodo SCR}{}{Director: Pablo Ponzio, Co-Director: Renzo Degiovanni}{Tesista: Juan Oviedo}{Estado: comenzando. Fecha Estimada de defensa: Diciembre 2015.}
+
+%\subsection{Analista en Computaci\'on (3 a\~nos + Trabajo Final)}
+%\cventry{2014 - 2015}{Desarrollo de un Juego de Damas 3D}{}{Director: Renzo Degiovanni, Co-Director: Cecilia Kilmurray}{Tesista: Cristian Tardivo}{Estado: finalizada en Abril 2015. Nota obtenida: 10.}
+%
+%\subsection{Becarios}
+%\cventry{2017 - 2018}{Beca de Ayudantía de Investigación 2017 de la UNRC}{Detección de cotas para la verificación de propiedades especificadas con la Lógica Temporal Lineal con Fluentes Contadores en Sistemas Reactivos y sus aplicaciones}{Director: Germán Regis, Co-Director: Renzo Degiovanni}{Becario: Ignacio Bongiovanni}{}
+
+\section{Integrante de Comité Evaluador}
+%\subsection{Trabajos Finales}
+%\cventry{2016}{Un Model Checker Puramente Funcional Para $\mu$-Cálculo}{}{Director: Pablo Castro, Co-Director: Germán Regis, Tesista: Luciano Putruele}{Evaluador del Trabajo Final presentado para optar al t\'itulo de Licenciado en Ciencias de la Computaci\'on, Universidad Nacional de Río Cuarto}{}
+%
+%\cventry{2015}{Un analizador estático para detectar problemas de seguridad}{}{Director: Marcelo Arroyo, Tesista: Francisco Chiotta}{Evaluador del Trabajo Final presentado para optar al t\'itulo de Licenciado en Ciencias de la Computaci\'on, Universidad Nacional de Río Cuarto}{}
+%
+%\cventry{2014}{JAIML: un intérprete AIML para implementar Chatbots}{}{Director: Francisco Bavera, Tesista: Albino Scoppa}{Evaluador del Trabajo Final presentado para optar al t\'itulo de Licenciado en Ciencias de la Computaci\'on, Universidad Nacional de Río Cuarto}{}
+%
+%\cventry{2013}{Sistema para Gestión de Inmobiliarias}{}{Director: Mg. Fabio Zorzan, Co-Director: Lic. Ariel Arsaute, Tesista: Rodríguez, Maria Laura}{Evaluador del Trabajo Final presentado para optar al t\'itulo de Analista en Computaci\'on, Universidad Nacional de Río Cuarto}{}
+
+\subsection{Concursos}
+\cventry{2012}{Concurso de Ayudantes de Segunda del Departamento de Computación}{}{Miembro Titular del Comité Evaluador}{Universidad Nacional de Río Cuarto}{}
+
+
+
+
+\section{Capacitaci\'on Realizada}
+
+\subsection{Materias de Post Grado}
+\cventry{2018}{Seguridad inform\'atica}{}{Dictado por el Mg. Marcelo Arroyo, en la Universidad Nacional de R\'io Cuarto}{Nota obtenida 10}{}
+
+\cventry{2018}{Testing de software }{}{Dictado por el Dr. Pablo Ponzio, en la Universidad Nacional de R\'io Cuarto}{Nota obtenida 9}{}
+
+\cventry{2015}{Certificaci\'on de programas usando COQ}{}{Dictado por el Dr. Carlos Luna y el Licenciado en Ciencias de la Computaci\'on Dante Zanarini, en la Universidad Nacional de C\'ordoba}{Nota obtenida 10}{}
+
+\cventry{2015}{Dise\~no de Programas Concurrentes}{}{Dictado por el Dr. Germ\'an Regis y el Dr Nazareno Aguirre, en la Universidad Nacional de C\'ordoba}{Nota obtenida 9}{}
+
+\cventry{2015}{Probabilidad y cadenas Markovianas}{}{Dictado por el Dr. Marcelo Ruiz, en la Universidad Nacional de C\'ordoba}{Nota obtenida 10}{}
+
+\subsection{Cursos Aprobados}
+
+\cventry{2019}{Seminario de Ingeniería de Software}{}{Dictado por Profs. Martin Wirsing, Univ. Ludwig-Maximillians de Munich; Carlo Ghezzi, Polit\'ecnico de Mil\'an; Sebast\'ian Uchitel, Univ. De Buenos Aires; Tom Maibaum, Univ. De McMaster; Marcelo Fr\'ias, Instituto Tecnol\'ogico de Buenos Aires}{26 Escuela de Verano de Ciencias Inform\'aticas RIO 2019. Nota obtenida 10}{}
+
+\cventry{2016}{Seminario de Ingeniería de Software}{}{Dictado por Prof. Sarfraz Khurshid, The University of Texas at Austin, USA}{23 Escuela de Verano de Ciencias Inform\'aticas RIO 2016. Nota obtenida 7}{}
+
+\cventry{2015}{Automatic Software Repair}{}{Dictado por Prof. Martin Monperrus, INRIA, France}{29 Escuela de Ciencias Informáticas ECI 2015. Nota obtenida 10}{}
+
+\cventry{2011}{Distributed and Outsourced Software Engineering}{Asignatura optativa de Licenciatura en Ciencias de la Computación, dictada dentro del marco del proyecto con el mismo nombre por la Universidad ETH en Zurich a cargo del Dr Bertrand Meyer}{Aprobado 10}{}{}
+
+\cventry{2011}{An\'alisis autom\'atico de programas : de la teor\'ia a la pr\'actica}{}{Dictado por Dr Diego Garbervetsky y el Licenciado Guido de Caso, Universidad de Buenos Aires, Argentina}{18 Escuela de Verano de Ciencias Inform\'aticas RIO 2011. Nota Obtenida 6.50}{}
+
+\cventry{2010}{Primeros Pasos en la Docencia Universitaria}{}{Dictado por Mg. Azucena Alija, Universidad de R\'io Cuarto, Argentina}{}{}
+
+\cventry{2010}{Testing de software con m\'etodos formales}{}{Dictado por Dra Laura Brandan Briones, Universidad Nacional de C\'ordoba, Argentina}{17 Escuela de Verano de Ciencias Inform\'aticas RIO 2010. Nota Obtenida 7}{}
+
+\cventry{2009}{Stringology}{}{Dictado por Dr.Yo\'an Pinz\'on, Universidad Nacional de Colombia}{16 Escuela de Verano de Ciencias Inform\'aticas RIO 2009. Nota obtenida 8}{}
+
+\cventry{2009}{Ingl\'es con fines espec\'ificos para las Ciencias Exactas: desarrollo de habilidades de comprensi\'on y producci\'on oral del discurso acad\'emico (Modulo 3)}{}{Organizado por el Departamento de Computaci\'on de la Facultad de Ciencias Exactas F\'isico-Qu\'imicas y Naturales de la UNRC y Dictado por el New English Institute}{}{}
+
+\cventry{2008}{Primeros Pasos en la Docencia Universitaria}{}{Dictado por Mg. Azucena Alija, Universidad de R\'io Cuarto, Argentina}{}{}
+
+
+\subsection{Cursos Asistidos}
+
+\cventry{2019}{Conceptos de Model Checking}{}{Dictado por Prof. Pedro D'Argenio, Universidad Nacional de C\'ordoba, Argentina}{26 Escuela de Verano de Ciencias Inform\'aticas RIO 2019.}{}
+
+\cventry{2019}{Auto-QA Automation: Software para testear Software}{}{Dictado por Prof. Juan Pablo Galeotti, Universidad de Buenos Aires, Argentina}{26 Escuela de Verano de Ciencias Inform\'aticas RIO 2019.}{}
+
+\cventry{2013}{Introducci\'on a la computaci\'on heterog\'enea}{}{Dictado por Dr. Nicolás Wolovick y Lic. Carlos Bederían, Universidad Nacional de C\'ordoba, Argentina}{20 Escuela de Verano de Ciencias Inform\'aticas RIO 2013.}{}
+
+\cventry{2013}{T\'ecnicas avanzadas para testing automatizado}{}{Dictado por Dr Marcelo Fr\'ias, Instituto Tecnol\'ogico de Buenos Aires, Argentina}{20 Escuela de Verano de Ciencias Inform\'aticas RIO 2013.}{}
+
+\cventry{2013}{Seminario de Computaci\'on, Introducci\'on a la plataforma Android y al desarrollo de aplicaciones}{}{Dictado por Mg Marcelo  Arroyo, Universidad Nacional de R\'io Cuarto, Argentina}{}{}
+
+\cventry{2012}{Matching Problems Under Preferences}{}{Dictado por Dr Julián Mestre, University of Sydney, Australia}{19 Escuela de Verano de Ciencias Inform\'aticas RIO 2012.}{}
+
+\cventry{2012}{Programaci\'on paralela en GPUs}{}{Dictado por Dra Mar\'ia Fabiana Picolli, Universidad de San Luis, Argentina}{19 Escuela de Verano de Ciencias Inform\'aticas RIO 2012.}{}
+
+\cventry{2010}{Modelado y simulaci\'on de sistemas din\'amicos con el formalismo DEVS}{}{Dictado por Dr Ernesto Kofman, Universidad de Rosario, Argentina}{17 Escuela de Verano de Ciencias Inform\'aticas RIO 2010.}{}
+
+
+
+\subsection{Talleres y Seminarios Asistidos}
+
+\cventry{2019}{S\'eptimo Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2019}{}{La Falda, C\'ordoba, Argentina}{}{}
+
+\cventry{2017}{Sexto Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2018}{}{La Falda, C\'ordoba, Argentina}{}{}
+
+\cventry{2017}{Quinto Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2017}{}{Carcaraes, Alto delta del Parana, Santa Fe, Argentina}{}{}
+
+\cventry{2016}{Cuarto Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2016}{}{Carcaraes, Alto delta del Parana, Santa Fe, Argentina}{}{}
+
+
+\subsection{Asistencia a Congresos y Jornadas}
+\cventry{2017}{ICSE 2017}{}{39th International Conference on Software Engineering, Buenos Aires, Argentina}{}{}
+\cventry{2014}{JAIIO/CLEI 2017}{}{46 Jornadas Argentinas de Inform\'atica / 43 Conferencia Latinoamericana de Inform\'atica, Universidad Tecnol\'ogica Nacional, C\'ordoba, Argentina}{}{}
+\cventry{2008-2019}{Escuela de Verano de Ciencias Inform\'aticas RIO}{}{ediciones 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016 y 2019}{Departamento de Computaci\'on, Universidad Nacional de R\'io Cuarto}{}
+
+\section{Tareas Acad\'emicas de Gestión/Administrativas}
+
+\subsection{Integrante de Consejos y Comisiones}
+\cventry{2017-2018}{Integrante Graduado Titular del Consejo Departamental}{}{en el Departamento de Computaci\'on de la Universidad Nacional de R\'io Cuarto}{}{Per\'iodo: a partir de Diciembre de 2017 hasta Octubre de 2018.}
+
+%\subsection{Miembro de comite organizador}
+%\cventry{2018}{Director Ejecutivo}{}{Escuela de Verano de Ciencias Informáticas RIO 2019, Río Cuarto, Córdoba, Argentina}{}{https://dc.exa.unrc.edu.ar/rio}
+%\cventry{2017}{Student Volunteers Co-Chair}{}{in the 39th International Conference on Software Engineering (ICSE), Buenos Aires, Argentina, 2017}{}{http://2017.icse-conferences.org}
+%\cventry{2015-2017}{Colaborador en FACAS}{}{Taller Argentino de Fundamentos para el An\'alisis y Construcci\'on Autom\'atica de Software FACAS 2015, 2016 y 2017}{}{Carcaraes, Alto delta del Parana, Santa Fe, Argentina.}
+%\cventry{2009-2017}{Colaborador en la organizaci\'on de la Escuela de Verano de Ciencias Inform\'aticas}{}{desde el año 2009 hasta el año 2018}{}{Departamento de Computaci\'on. Universidad Nacional de R\'io Cuarto.}
+%\cventry{2009}{Colaborador en el APV 2009}{}{The Symposium on Automatic Program Verification}{}{Universidad Nacional de R\'io Cuarto, 2009.}
+
+\section*{Conocimiento de Idiomas}
+\cventry{2001}{Instituto de Ingl\'es STEPS}{}{}{}{}
+\cventry{1992-1999}{Instituto de Ingl\'es STEPS}{}{}{}{}
+
+\section*{Experiencia en Desarrollo de Software}
+
+\cventry{Noviembre 2013- Abril 2014}{Desarrollador \textit{C+} en proyecto de procesamiento de im\'agenes, reconocimiento de patrones}{Yeti Media, California}{}{}{}
+
+\cventry{2014- Actualidad}{Desarrollador \texttt{Java} en \textit{muJava++}, una extensi\'on de \textit{muJava}, herramienta de mutation testing}{\url{https://github.com/saiema/MuJava}}{}{}{}
+
+\end{document}
