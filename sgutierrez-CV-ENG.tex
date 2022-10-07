@@ -1,0 +1,175 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{enumitem}
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[english]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+%number is section
+\newcounter{secnumber}
+\renewcommand\sectionstyle[1]{{%
+  \refstepcounter{secnumber}%
+  \sectionfont
+  \textcolor{color1}{\thesecnumber~#1}%
+}}
+
+% personal data
+\firstname{\Huge Sim\'on Emmanuel}
+\familyname{Guti\'errez Brida}
+\title{Curriculum Vitae} 
+%\address{<Address Street>}{<Addres Place>}
+\mobile{+549 (358) 4396 444}
+\phone{+549 (358) 4676 235}
+%\fax{<Fax number>}
+\email{sgutierrez@dc.exa.unrc.edu.ar}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[100pt]{pict.JPG}
+%\photo[84pt]{foto.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{"Success is the ability to go from failure to failure without losing your enthusiasm." -- Winston Churchill}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{wasysym}
+
+\begin{document}
+\maketitle
+
+%Section
+\section{Personal Information}
+%\cvcomputer{Nombre:}{Renzo Degiovanni}{D.N.I:}{32705627}
+%\cvline{}{Lugar de Nacimiento: R\'io Cuarto, C\'ordoba, Argentina}
+%\cvcomputer{Fecha y Lugar de Nacimiento:}{10/04/1987}{Estado Civil:}{Uni\'on de Hecho}
+%\cvcomputer{Lugar de Nacimiento:}{R\'io Cuarto, C\'ordoba, Argentina}{N\'umeros de Hijos:}{1}
+%\cvcomputer{Fecha de Nacimiento:}{10/04/1987}{Lugar de Nacimiento:}{R\'io Cuarto, C\'ordoba, Argentina}
+%\cvcomputer{Estado Civil:}{Uni\'on de Hecho}{Hijos:}{1}
+%\cvcomputer{Domicilio:}{Avenida C\'ordoba 515}{Localidad:}{Las Acequias, C\'ordoba, Argentina}
+\begin{minipage}{9cm}
+\begin{itemize}
+\item Full Name: Guti\'errez Brida, Sim\'on Emmanuel
+\item City: R\'io Cuarto, C\'ordoba
+\item Country: Argentina
+\end{itemize}
+\end{minipage}
+\begin{minipage}{9cm}
+\begin{itemize}
+\item Date of Birth: 14/10/1983
+\item Place of Birth: Ciudad de Buenos Aires
+\end{itemize}
+\end{minipage}
+
+
+\section{Education}
+\cventry{2014-2019}{PhD in Computer Science}{}{Facultad de Matem\'atica, Astronom\'ia y F\'isica, Universidad Nacional de C\'ordoba}{C\'ordoba, Argentina}{Research topic: In this thesis we develop a new mutation operator targeted at navigational expressions. Our operator extends the traditional operators set allowing the representation of new defect types in the context of mutation testing. In the context of automatic program repair, our operator increases the repairability.}
+\cventry{2009-2014}{Computer Science bachelor 5 years degree}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Average score: 8.53/10}
+\cventry{2007-2011}{Computer Science Tertiary 3 years degree}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Average score: 8.13/10}
+
+
+\section{Fellowships}
+\cventry{2019-2021}{Posdoctoral Fellowship}{}{Given by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2014-2019}{PhD Fellowship}{}{Given by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2012}{Fellowship for students in the last years of Information and Communication Technologies related University careers.}{}{Given by Agencia Nacional de Promoci\'on Cient\'ifica y Tecnol\'ogica}{}{}
+\cventry{2011}{Scientific stimulation fellowship.}{Allows students to get involved in research projects.}{Given by Consejo Interuniversitario Nacional}{}{}
+
+\section{Research projects}
+
+\subsection{Funded Research Projects}
+\cventry{2019}{Improving software testing through automatic translation of test inputs to API calls.}{Granted by Ministerio de Ciencia y Tecnología.}{}{}{Awaiting funds.}
+
+\subsection{Colaborator}
+\cventry{2016-2018}{Formal methods for Software Specification, Design, and Verification.}{PPI}{Granted by Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto (\$49.800)}{Project Director Dr. Nazareno Aguirre}{}
+
+\cventry{2012-2015}{Formal methods for Software Specification, Design, and Verification.}{PPI}{Granted by Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto (\$39.000)}{Project Director Dr. Nazareno Aguirre}{}
+
+
+\section{Employment Background}
+\subsection{Academic / Teaching positions}
+\cventry{April 2019- July 2019}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{April 2018- July 2018}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{January 2017- March 2017}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{January 2017- March 2017}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{January 2016- December 2016}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{August 2015- December 2015}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{2011-2012}{Student Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{2010-2011}{Student Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\cventry{2008-2009}{Student Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
+
+\section{Publications}
+
+\subsection{International Conferences}
+\cventry{2019}{On the effect of object redundancy elimination in randomly testing collection classes.}{P. Ponzio, V. Bengolea, S. Guti\'errez Brida, G. Scilingo, N. Aguirre, M. Frias}{11th International Workshop on Search-Based Software Testing (SBST 2018)}{Gothenburg, Sweden}{In conjunction with ICSE 2019 - ACM/IEEE International Conference on Software Engineering.}
+
+\cventry{2017}{An Analysis of the Suitability of Test-based Patch Acceptance Criteria}{L. Zem\'in, S. Guti\'errez, A. Godio, C. Cornejo, R. Degiovanni, G. Regis, N. Aguirre and M. Frias}{10th International Workshop on Search-Based Software Testing (SBST 2017)}{Buenos Aires, Argentina}{In conjunction with ICSE 2017 - ACM/IEEE International Conference on Software Engineering.}{}
+
+\cventry{2017}{Boolean expression extender - A mutation operator for strengthening and weakening boolean expressions}{S. Guti\'errez Brida, G. Scilingo}{2017 XLIII Latin American Computer Conference (CLEI 2017)}{C\'ordoba, Argentina}{}
+
+\cventry{2017}{DynAlloy Analyzer: A Tool for the Specification and Analysis of Alloy Models with Dynamic Behaviour}{G. Regis, C. Cornejo, S. Guti\'errez Brida, M. Politano, F. Raverta, P. Ponzio, N. Aguirre, J.P. Galeotti, M. Frias}{11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)}{Paderborn, Alemania}{Tool Paper.}
+
+\subsection{National Conferences}
+
+\cventry{2019}{Detecci\'on de objetos espurios en generaci\'on autom\'atica de entradas}{Sim\'on Guti\'errez Brida, Pablo Ponzio, Valeria Bengolea, y Nazareno Aguirre}{en Congreso Argentino de Ciencias de la Computaci\'on 2019 (CACIC 2019)}{R\'io Cuarto, Argentina}{}
+
+\cventry{2019}{Implementaci\'on B\'asica de Typestates en Rust}{Marcelo Arroyo, Sim\'on Guti\'errez Brida, Pablo Ponzio}{en Congreso Argentino de Ciencias de la Computaci\'on 2019 (CACIC 2019)}{R\'io Cuarto, Argentina}{}
+
+\cventry{2012}{Criterios de Cobertura sobre RepOK para Reducir Test Suites Exhaustivas Acotadas: Estudio de Casos}{V. Bengolea, S. Guti\'errez Brida y N. Aguirre}{en Congreso Argentino de Ciencias de la Computaci\'on 2012 (CACIC 2012)}{Bah\'ia Blanca, Argentina}{}
+
+\section{Article Evaluation}
+
+\subsection{National and Regional Conferences}
+\cventry{2019}{CLEI 2019}{Evaluation of one article in Conferencia Latinoamericana de Informática.}{}{}{}
+
+\cventry{2017}{CLEI 2017}{Evaluation of one article in Conferencia Latinoamericana de Informática.}{}{}{}
+
+\section{Undergrad Thesis Supervision}
+
+\cventry{2017 - 2019}{Leandro Buttignol.}{Comparison of Automatic test generation tools.}{}{Co-supervised with Pablo Ponzio (Supervisor), and Valeria Bengolea (Co-Supervisor)}{}{}
+
+\section{Evaluation Committees Participation}
+
+\subsection{Student Teaching Assistant}
+\cventry{2012}{In student teaching assistant selection for Computer Science Department.}{}{}{Universidad Nacional de Río Cuarto, Córdoba, Argentina.}{}
+
+\section{Attendance to Scientific Meetings}
+\cventry{2017}{ICSE 2017}{}{39th International Conference on Software Engineering, Buenos Aires, Argentina}{}{}
+\cventry{2014}{JAIIO/CLEI 2017}{}{46 Jornadas Argentinas de Inform\'atica / 43 Conferencia Latinoamericana de Inform\'atica, Universidad Tecnol\'ogica Nacional, C\'ordoba, Argentina}{}{}
+
+\section{Administrative positions}
+
+\cventry{2017-2018}{Member of Computer Science department council in representation of graduate students.}{}{Departamento de Computaci\'on de la Universidad Nacional de R\'io Cuarto.}{}{}
+
+
+\section*{Software Development Experience}
+
+\cventry{November 2013- April 2014}{Developer \textit{C++}, in pattern recognition on images.}{Yeti Media, California}{}{}{}
+
+\cventry{2014- Actualidad}{Developer \texttt{Java} in \textit{muJava++}, an extension of \textit{muJava}, a mutation testing tool}{\url{https://github.com/saiema/MuJava}}{}{}{}
+
+\end{document}
