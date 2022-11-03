@@ -20,12 +20,12 @@
 \fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
 
 %number is section
-\newcounter{secnumber}
-\renewcommand\sectionstyle[1]{{%
-  \refstepcounter{secnumber}%
-  \sectionfont
-  \textcolor{color1}{\thesecnumber~#1}%
-}}
+%\newcounter{secnumber}
+%\renewcommand\sectionstyle[1]{{%
+%  \refstepcounter{secnumber}%
+%  \sectionfont
+%  \textcolor{color1}{\thesecnumber~#1}%
+%}}
 
 % personal data
 \firstname{\Huge Sim\'on Emmanuel}
@@ -60,7 +60,7 @@
 \maketitle
 
 %Section
-\section{Personal Information}
+\section*{Personal Information}
 %\cvcomputer{Nombre:}{Renzo Degiovanni}{D.N.I:}{32705627}
 %\cvline{}{Lugar de Nacimiento: R\'io Cuarto, C\'ordoba, Argentina}
 %\cvcomputer{Fecha y Lugar de Nacimiento:}{10/04/1987}{Estado Civil:}{Uni\'on de Hecho}
@@ -72,41 +72,40 @@
 \begin{itemize}
 \item Full Name: Guti\'errez Brida, Sim\'on Emmanuel
 \item City: R\'io Cuarto, C\'ordoba
-\item Country: Argentina
+\item Citizenship: Argentine
 \end{itemize}
 \end{minipage}
 \begin{minipage}{9cm}
-\begin{itemize}
-\item Date of Birth: 14/10/1983
-\item Place of Birth: Buenos Aires City
-\end{itemize}
+%\begin{itemize}
+%\item Date of Birth: 14/10/1983
+%\item Place of Birth: Buenos Aires City
+%\end{itemize}
 \end{minipage}
 
 
-\section{Education}
-\cventry{2014-2019}{PhD in Computer Science}{}{Facultad de Matem\'atica, Astronom\'ia y F\'isica, Universidad Nacional de C\'ordoba}{C\'ordoba, Argentina}{Research topic: In this thesis we develop a new mutation operator targeted at navigational expressions. Our operator extends the traditional operators set allowing the representation of new defect types in the context of mutation testing. In the context of automatic program repair, our operator increases the repairability.}
-\cventry{2009-2014}{Computer Science bachelor 5 years degree}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Average score: 8.53/10}
-\cventry{2007-2011}{Computer Science Tertiary 3 years degree}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{Average score: 8.13/10}
+\section*{Education}
+\cventry{2014-2019}{PhD in Computer Science}{}{Facultad de Matem\'atica, Astronom\'ia y F\'isica, Universidad Nacional de C\'ordoba}{C\'ordoba, Argentina}{Title: Mutation of Navigational Expressions for Testing and Program Repair. Advisor: Aguirre Nazareno. Description: In this thesis we develop a new mutation operator targeted at navigational expressions. Our operator extends the traditional operators set allowing the representation of new defect types in the context of mutation testing. In the context of automatic program repair, our operator increases the repairability.}
+\cventry{2009-2014}{Licenciatura in Computer Science (5 years degree)}{}{Universidad Nacional de R\'io Cuarto}{R\'io Cuarto, C\'ordoba, Argentina}{}
 
 
-\section{Fellowships}
-\cventry{2019-2021}{Posdoctoral Fellowship}{}{Given by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
-\cventry{2014-2019}{PhD Fellowship}{}{Given by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
-\cventry{2012}{Fellowship for students in the last years of Information and Communication Technologies related University careers.}{}{Given by Agencia Nacional de Promoci\'on Cient\'ifica y Tecnol\'ogica}{}{}
-\cventry{2011}{Scientific stimulation fellowship.}{Allows students to get involved in research projects.}{Given by Consejo Interuniversitario Nacional}{}{}
+\section*{Fellowhips/Scholarships}
+\cventry{2019-2021}{Posdoctoral Fellowship}{}{Funded by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2014-2019}{PhD Scholarship}{}{Funded by Consejo Nacional de Investigaciones Cient\'ificas y T\'ecnicas (CONICET)}{}{}
+\cventry{2012}{Scholarship for students in the last years of Information and Communication Technologies related University careers.}{}{Funded by Agencia Nacional de Promoci\'on Cient\'ifica y Tecnol\'ogica}{}{}
+\cventry{2011}{Scientific stimulation Scholarship.}{Allows undergrad students to get involved in research projects.}{Funded by Consejo Interuniversitario Nacional}{}{}
 
-\section{Research projects}
+\section*{Research projects}
 
-\subsection{Funded Research Projects}
+\subsection*{Funded Research Projects}
 \cventry{2019}{Improving software testing through automatic translation of test inputs to API calls.}{Granted by Ministerio de Ciencia y Tecnología.}{}{}{}
 
-\subsection{Colaborator}
+\subsection*{Colaborator}
 \cventry{2016-2018}{Formal methods for Software Specification, Design, and Verification.}{PPI}{Granted by Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto}{Project Director Dr. Nazareno Aguirre}{}
 
 \cventry{2012-2015}{Formal methods for Software Specification, Design, and Verification.}{PPI}{Granted by Secretaria de Ciencia y T\'ecnica, Universidad Nacional de R\'io Cuarto}{Project Director Dr. Nazareno Aguirre}{}
 
-\section{Employment Background}
-\subsection{Academic / Teaching positions}
+\section*{Employment Background}
+\subsection*{Academic / Teaching positions}
 
 \cventry{April 2019- Current}{Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
 
@@ -117,9 +116,9 @@
 
 \cventry{2008-2012}{Student Teaching Assistant}{}{Computer Science Department at Universidad Nacional de Río Cuarto, Río Cuarto, Córdoba, Argentina.}{}{}
 
-\section{Publications}
+\section*{Publications}
 
-\subsection{International Conferences}
+\subsection*{International Conferences}
 \cventry{2022}{ICEBAR: Feedback-Driven Iterative Repair of Alloy Specifications.}{Simón Gutiérrez Brida, Germán Regis, Guolong Zheng, Hamid Bagheri, ThanhVu Nguyen, Nazareno Aguirre, Marcelo F. Frias}{37th International Conference on Automated Software Engineering. (ASE 2022)}{Michigan, US}{Full Research Paper.}
 
 \cventry{2022}{ATR: template-based repair for Alloy specifications.}{Guolong Zheng, ThanhVu Nguyen, Simón Gutiérrez Brida, Germán Regis, Marcelo F. Frias, Nazareno Aguirre, Hamid Bagheri}{31st International Symposium on Software Testing and Analysis (ISSTA 2022)}{Virtual, South Korea}{Full Research Paper.}
@@ -144,7 +143,7 @@
 
 \cventry{2017}{DynAlloy Analyzer: A Tool for the Specification and Analysis of Alloy Models with Dynamic Behaviour}{G. Regis, C. Cornejo, S. Guti\'errez Brida, M. Politano, F. Raverta, P. Ponzio, N. Aguirre, J.P. Galeotti, M. Frias}{11th Joint Meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering (FSE 2017)}{Paderborn, Alemania}{Tool Paper.}
 
-\subsection{National Conferences}
+\subsection*{National Conferences}
 
 \cventry{2019}{Detecci\'on de objetos espurios en generaci\'on autom\'atica de entradas}{Sim\'on Guti\'errez Brida, Pablo Ponzio, Valeria Bengolea, y Nazareno Aguirre}{en Congreso Argentino de Ciencias de la Computaci\'on 2019 (CACIC 2019)}{R\'io Cuarto, Argentina}{}
 
@@ -152,37 +151,37 @@
 
 \cventry{2012}{Criterios de Cobertura sobre RepOK para Reducir Test Suites Exhaustivas Acotadas: Estudio de Casos}{V. Bengolea, S. Guti\'errez Brida y N. Aguirre}{en Congreso Argentino de Ciencias de la Computaci\'on 2012 (CACIC 2012)}{Bah\'ia Blanca, Argentina}{}
 
-\section{Article Evaluation}
-\subsection{International Conferences}
+\section*{Article Evaluation}
+\subsection*{International Conferences}
 \cventry{2022}{FSE/ESEC 2022 Artifacts Track}{Evaluation of two Artifact submissions}{}{}{}
 
-\subsection{National and Regional Conferences}
+\subsection*{National and Regional Conferences}
 \cventry{2019}{SLISW 2019}{Evaluation of un article in Conferencia Latinoamericana de Informática}{}{}{}
 
 \cventry{2017}{SLISW 2017}{Evaluation if two articles in Conferencia Latinoamericana de Informática}{}{}{}
 
 \cventry{2017}{ASSE 2017}{Evaluation of two articles in Conferencia Latinoamericana de Informática}{}{}{}
 
-\section{Undergrad Thesis Supervision}
+\section*{Undergrad Thesis Supervision}
 
 \cventry{2017 - 2019}{Leandro Buttignol.}{Comparison of Automatic test generation tools.}{}{Co-supervised with Pablo Ponzio (Supervisor), and Valeria Bengolea (Co-Supervisor)}{}{}
 
-\section{Evaluation Committees Participation}
+\section*{Evaluation Committees Participation}
 
-\subsection{Student Teaching Assistant}
+\subsection*{Student Teaching Assistant}
 \cventry{2012}{In student teaching assistant selection for Computer Science Department.}{}{}{Universidad Nacional de Río Cuarto, Córdoba, Argentina.}{}
 
-\section{Attendance to Scientific Meetings}
+\section*{Attendance to Scientific Meetings}
 \cventry{2021}{ICSE 2021}{}{43rd International Conference on Software Engineering, Madrid, Spain}{}{}
 \cventry{2017}{ICSE 2017}{}{39th International Conference on Software Engineering, Buenos Aires, Argentina}{}{}
 \cventry{2014}{JAIIO/CLEI 2017}{}{46 Jornadas Argentinas de Inform\'atica / 43 Conferencia Latinoamericana de Inform\'atica, Universidad Tecnol\'ogica Nacional, C\'ordoba, Argentina}{}{}
 \cventry{2008-2019}{Computer Science Summer School RIO}{}{editions 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018, 2019, y 2020}{Computer Science Deptarment, Universidad Nacional de Río Cuarto}{}
 
-\section{Administrative positions}
+\section*{Administrative positions}
 
 \cventry{2017-2022}{Member of Computer Science department council in representation of graduate students.}{}{Departamento de Computaci\'on de la Universidad Nacional de R\'io Cuarto.}{}{}
 
-\section{Scientific-Technological events participation and organization}
+\section*{Scientific-Technological events participation and organization}
 \cventry{2016-2020}{Computer Science Summer School RIO}{Universidad Nacional de Río Cuarto}{Member of organizing committee}{}{}
 
 \cventry{2017}{ICSE 2017 39th International Conference on Software Engineering}{Buenos Aires, Argentina}{Student Volunteer}{}{}
